@@ -3,7 +3,7 @@ const decreasePVR = [
 ];
 
 const increasePVR = [
-    "NE", "Epi", "⍺-Adrenergic agonists", "PGF2⍺", "PGE2", "Thromboxane", "Endothelin",
+    "Norepinephrine", "Epinephrine", "⍺-Adrenergic agonists", "PGF2⍺", "PGE2", "Thromboxane", "Endothelin",
     "Angiotensin", "Histamine", "Alveolar", "Hypoxia", "Hypercapnia", "Low pH of mixed venous blood"
 ];
 
