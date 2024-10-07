@@ -12,7 +12,7 @@ let currentCategory = '';
 
 function generateNewTopic() {
     resetGame();
-    const categories = ["INCREASE PVR", "DECREASE PVR"];
+    const categories = ["DECREASE PVR", "INCREASE PVR"];
     const randomCategory = categories[Math.floor(Math.random() * categories.length)];
 
     if (randomCategory === "DECREASE PVR") {
@@ -32,12 +32,12 @@ function resetGame() {
     document.getElementById('increase-btn').classList.remove('correct', 'wrong');
 }
 
-document.getElementById('increase-btn').addEventListener('click', () => {
-    checkAnswer("INCREASE PVR");
-});
-
 document.getElementById('decrease-btn').addEventListener('click', () => {
     checkAnswer("DECREASE PVR");
+});
+
+document.getElementById('increase-btn').addEventListener('click', () => {
+    checkAnswer("INCREASE PVR");
 });
 
 function checkAnswer(selectedCategory) {
