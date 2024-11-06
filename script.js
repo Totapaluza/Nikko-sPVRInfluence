@@ -5,7 +5,7 @@ const decreasePVR = [
 
 const increasePVR = [
     "Norepinephrine", "Epinephrine", "⍺-Adrenergic agonists", "Prostaglandin F₂⍺ (PGF₂⍺)", "Prostaglandin E₂ (PGE₂)", "Thromboxane (TXAg2)", "Endothelin (nonspecific)",
-    "Angiotensin", "Histamine", "Alveolar Hypoxia", "Alveolar Hypercapnia", "Low pH of mixed venous blood (Acidic SvO₂)", "Pancuronium", "Nitrous Oxide (N2O)", "Endothelin-A (ET-A)", " "
+    "Angiotensin", "Histamine", "Alveolar Hypoxia", "Alveolar Hypercapnia", "Low pH of mixed venous blood (Acidic SvO₂)", "NMB: Pancuronium", "Nitrous Oxide (N2O)", "Endothelin-A (ET-A)", " "
 ];
 
 let currentTopic = '';
