@@ -1,10 +1,11 @@
 const decreasePVR = [
-    "Acetylcholine", "Isoproterenol", "Nitric Oxide", "PGE1", "Prostacyclin (PGI2)", "Bradykinin"
+    "Acetylcholine", "Isoproterenol", "Nitric Oxide (NO)", "Prostaglandin E₁ (PGE₁)", "Prostacyclin/Prostaglandin I₂ (PGI₂)", "Bradykinin", "Endothelin-B (ET-B)", "PDE-5 Inhibitor: sildenafil (Viagra)", 
+    "PDE-5 Inhibitor: tadalafil (Cialis)", "Prostacyclin Analogue: Epoprostenol (Flolan)", "Prostacyclin Analogue: Epoprostenol (Flolan)", "Prostacyclin Analogue: Iloprost", "Prostacyclin Analogue: Treprostinil", "Endothelin Receptor ANTAGONIST (ERA) w/ high selectivity to Endothelin-A (ET-A)"  
 ];
 
 const increasePVR = [
-    "Norepinephrine", "Epinephrine", "⍺-Adrenergic agonists", "PGF2⍺", "PGE2", "Thromboxane", "Endothelin",
-    "Angiotensin", "Histamine", "Alveolar", "Hypoxia", "Hypercapnia", "Low pH of mixed venous blood"
+    "Norepinephrine", "Epinephrine", "⍺-Adrenergic agonists", "Prostaglandin F₂⍺ (PGF₂⍺)", "Prostaglandin E₂ (PGE₂)", "Thromboxane (TXAg2)", "Endothelin (nonspecific)",
+    "Angiotensin", "Histamine", "Alveolar Hypoxia", "Alveolar Hypercapnia", "Low pH of mixed venous blood (Acidic SvO₂)", "Pancuronium", "Nitrous Oxide (N2O)", "Endothelin-A (ET-A)", " "
 ];
 
 let currentTopic = '';
